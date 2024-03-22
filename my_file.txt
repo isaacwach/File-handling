@@ -1,3 +1,4 @@
 Welcome to file handling module
 This is module 6
 30
+Successfuly finishing the module will require absolute dedication, worjing for more than 10 hours a day.
