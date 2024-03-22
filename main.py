@@ -16,3 +16,14 @@ with open("my_file.txt", "a") as file:
     file.write("Hello, hope you enjoye the module\n")
     file.write("See you next week\n")
     file.write("remember to complete the assignment\n")
+
+# Error Handling
+try:
+    with open("non_existent_file.txt", "r") as file:
+        contents = file.read()
+except FileNotFoundError:
+    print("File not found.")
+except PermissionError:
+    print("Permission denied.")
+finally:
+    print("Thank ypu for checking our course")
